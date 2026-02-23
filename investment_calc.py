@@ -58,7 +58,7 @@ def main():
     roi_percent = roi(total_invested, final_amount)
 
     #Write to output file
-    with open("roi_output.txt", "w") as f:
+    with open("output.txt", "w") as f:
         f.write(f"Final Amount: ${final_amount:.2f}\n")
         f.write(f"Total Invested: ${total_invested:.2f}\n")
         f.write(f"Final Profit: ${total_profit:.2f}\n")
