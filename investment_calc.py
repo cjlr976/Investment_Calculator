@@ -3,15 +3,6 @@ Chloe Robinson and Camila Fienco
 COT 4400 Analysis of Algorithms
 22 February 2026
 '''
-
-'''
-Purpose: Recursively calculates final investment value
-Base case:
-    If years == 0, return initial principle
-Recursive case:
-    V(n) = (V(n-1) + contribution) * (1 + rate)
-'''
-
 import sys
 
 '''
@@ -21,6 +12,11 @@ Parameters:
     - rate: Annual interest rate
     - contrib_a: Annual contribution
     - years: Number of years to calculate for
+
+Base case:
+    If years == 0, return initial principle
+Recursive case:
+    V(n) = (V(n-1) + contribution) * (1 + rate)
 '''
 def investment(principle, rate, contrib_a, years):
     # Valid input
