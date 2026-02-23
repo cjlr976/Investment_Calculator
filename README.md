@@ -46,5 +46,14 @@ Space: O(n)
 ## Deployment
 Windows CMD
 ```
-python roi_calc.py
+python investment_calc.py
 ```
+
+To test a sample
+Windows CMD
+```
+python investment_calc.py < n_input.txt
+```
+Output will be output.txt
+Cases 5-10 are edge cases
+

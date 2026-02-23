@@ -1,0 +1,4 @@
+Final Amount: $1914.48
+Total Invested: $800.00
+Final Profit: $1114.48
+ROI Percentage: 139.31%

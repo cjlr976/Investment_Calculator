@@ -1,0 +1,4 @@
+Final Amount: $5000.00
+Total Invested: $5000.00
+Final Profit: $0.00
+ROI Percentage: 0.00%
