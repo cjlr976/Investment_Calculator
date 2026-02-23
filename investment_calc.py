@@ -10,6 +10,8 @@ Base case:
 Recursive case:
     V(n) = (V(n-1) + contribution) * (1 + rate)
 '''
+import sys
+
 def investment(principle, rate, contrib_a, years):
     # Valid input
     if years < 0:
